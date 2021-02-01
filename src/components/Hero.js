@@ -1,12 +1,14 @@
 import DiscordLogo from "../assets/images/discord.png";
+import Data from "../config.json";
 
 const Hero = props => {
     return(
         <section className="hero">
             <div className="inner" style={{textAlign: 'center'}}>
                 <div>
-                    <h1 style={{fontSize: '3rem'}}>RedwoodRP</h1>
-                    <a href=""><img style={{width: '128px', backgroundColor: 'rgba(255,255,255,0.2)'}} src={DiscordLogo} alt="Discord Logo"/></a>
+                    <h1 style={{fontSize: '3rem'}}>{Data.config.name}</h1>
+                    <a href={Data.config.discord}><img style={{width: '128px', backgroundColor: 'rgba(255,255,255,0.2)'}} src={DiscordLogo} alt="Discord Logo"/></a>
+                    <h5>connect {Data.config.ip}:{Data.config.port}</h5>
                 </div>
                 <div>
                     <h3 style={{textAlign: 'center'}}>Trailer</h3>

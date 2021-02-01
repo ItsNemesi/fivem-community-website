@@ -1,0 +1,20 @@
+.staff {
+  width: 100vh;
+  margin: 20px auto;
+  .inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    div {
+      margin: 20px 20px;
+      img {
+        border-radius: 9999px;
+      }
+      h6 {
+        color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "staff": [
+    {
+      "name": "ItsNemesi",
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/af/af20b41dc2ed6603dfd3d3f05b948f4b575fbfc5_full.jpg",
+      "role": "Founder"
+    },
+    {
+      "name": "ItsNemesi",
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/af/af20b41dc2ed6603dfd3d3f05b948f4b575fbfc5_full.jpg",
+      "role": "Head Of Staff"
+    },
+    {
+      "name": "ItsNemesi",
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/af/af20b41dc2ed6603dfd3d3f05b948f4b575fbfc5_full.jpg",
+      "role": "Developer"
+    },
+    {
+      "name": "ItsNemesi",
+      "image": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/af/af20b41dc2ed6603dfd3d3f05b948f4b575fbfc5_full.jpg",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "name": "RedwoodRP",
+    "discord": "https://discord.gg",
+    "ip": "example.com",
+    "port": "30120"
+  }
+}

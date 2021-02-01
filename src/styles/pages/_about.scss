@@ -1,0 +1,14 @@
+.page {
+  display:flex;
+  flex-direction: column;
+  margin-top: 60px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  vertical-align: center;
+  p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
