@@ -6,7 +6,6 @@ const Hero = props => {
             <div className="inner" style={{textAlign: 'center'}}>
                 <div>
                     <h1 style={{fontSize: '3rem'}}>RedwoodRP</h1>
-                    <a href="fivem://connect/redwoodrp.cc"><div className="code">connect redwoodrp.cc</div></a>
                     <a href=""><img style={{width: '128px', backgroundColor: 'rgba(255,255,255,0.2)'}} src={DiscordLogo} alt="Discord Logo"/></a>
                 </div>
                 <div>
