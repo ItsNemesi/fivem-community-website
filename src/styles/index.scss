@@ -1,0 +1,39 @@
+@use "core/variables";
+@use "components/navbar";
+@use "components/hero";
+@use "components/features";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;1,400;1,600;1,700&display=swap');
+
+.code {
+  color: white;
+  background-color: rgba(255,255,255, 0.3);
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  &:hover {
+    background: #555;
+  }
+}

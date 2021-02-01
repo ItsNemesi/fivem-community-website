@@ -1,0 +1,28 @@
+.features {
+  margin-top: 20px;
+  width: 100vw;
+  .inner {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    div {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 33.333%;
+      p {
+        width: 90%;
+        margin: auto;
+      }
+      i {
+        border: #F66fFF;
+        border-radius: 1px;
+        border: 5px;
+        font-size: 500%;
+      }
+    }
+  }
+}

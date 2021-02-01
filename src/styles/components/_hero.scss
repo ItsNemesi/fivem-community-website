@@ -1,0 +1,43 @@
+@use "../core/variables";
+
+.hero {
+  background-image: url("../../assets/images/los-santos-lg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  width: 100vw;
+  height: 100vh;
+  .inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height:100%;
+    margin:auto;
+    flex-grow: 5;
+    flex-shrink: 5;
+    div {
+      height:auto;
+    }
+    .buttons {
+      margin: auto;
+      padding-top: 15px;
+      width: 30%;
+      .button{
+        padding: 10px;
+        text-decoration: none;
+        color: #2bd5ff;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

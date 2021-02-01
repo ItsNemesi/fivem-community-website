@@ -1,0 +1,21 @@
+.container-flex {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-around;
+}
