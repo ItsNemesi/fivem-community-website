@@ -39,6 +39,7 @@ class Navigation extends Component {
                             <li><a href="/">Home</a></li>
                             <li><a href="/">About</a></li>
                             <li><a href="/">Players</a></li>
+                            <li><a href="/">Rules</a></li>
                         </ul>
                     </div>
                 </div>
