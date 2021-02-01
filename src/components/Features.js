@@ -33,14 +33,14 @@ const Features = props => {
                     </p>
                 </div>
                 <div>
-                    <i className="fas fa-car" />
+                    <i className="fas fa-users-cog" />
                     <h2>Development Team</h2>
                     <p>
                         Our development team are great at what they do. They love to keep the server fresh are new.
                     </p>
                 </div>
                 <div>
-                    <i className="fas fa-car" />
+                    <i className="fas fa-users-slash" />
                     <h2>Anticheat</h2>
                     <p>
                         We have an anticheat that can detect most popular menus used by cheaters.

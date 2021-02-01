@@ -26,3 +26,20 @@
     }
   }
 }
+
+@media only screen and (max-device-width: 1366px)
+ {
+  .features{
+    margin: auto;
+    margin-top: 30px;
+    .inner{
+      flex-direction: column;
+      margin: auto;
+      div {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+      }
+    }
+  }
+}
