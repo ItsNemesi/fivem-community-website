@@ -3,8 +3,9 @@
   "description": "A FiveM RP Community Frontend",
   "author": {
     "name": "ItsNemesi",
-    "url": "https://github.com/itsnemesi"
+    "url": "https://itsnemesi.github.io/"
   },
+  "homepage": "https://github.com/ItsNemesi/fivem-community-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
